@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header{
+    background: rgba(6, 117, 127, 0.685);
+    width: 100%;
+    height: 50px;
+}
+
+.superior{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+h1{
+    font-size: 18px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+li{
+    list-style: none;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    margin-right:20px ;
+}
+
+a:hover{
+    color: gainsboro;
+    cursor: pointer;
+}
+
+main{
+    background: rgba(35, 78, 82, 0.429);
+    flex: 1;
+}
+
+.divisiones{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 10px;
+   gap: 10px;
+}
+
+.foto_systemplus{
+    background: lightseagreen;
+    width: 300px;
+    height: 300px;
+}
+
+.texto{
+    background: lightcoral;
+    width: 80%;
+    height: 300px;
+    padding: 10px;
+}
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+    background: rgba(6, 117, 127, 0.685);
+    width: 100%;
+    height: 50px;   
+    align-items: center;
+}
+
+.inferior{
+    margin-right: 15px;
+    font-size: 12px;
+}
+
+.h3{
+    align-items: center;
+    height: 50px;
+}
